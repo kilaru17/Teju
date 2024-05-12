@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        #about {
+            max-width: 800px; /* Adjust as needed */
+            margin: 0 auto;
+        }
+        .about-item {
+            display: flex;
+            flex-direction: row-reverse; /* Reverse the direction for zig-zag effect */
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .about-item img {
+            width: 40%; /* Adjust as needed */
+            border-radius: 10px; /* Optional: Adds rounded corners to the image */
+        }
+        .about-text {
+            width: 55%; /* Adjust as needed */
+            padding: 10px;
+            background-color: #c7b7b7; /* Optional: Adds background color to text area */
+            border-radius: 6px; /* Optional: Adds rounded corners to the text area */
+        }
+        @media (max-width: 768px) {
+            .about-item {
+                flex-direction: column; /* Change to column layout for small screens */
+                text-align: center;
+            }
+            .about-item img {
+                width: 100%; /* Full width for small screens */
+                margin-bottom: 15px;
+            }
+            .about-text {
+                width: 100%; /* Full width for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="about">
+        <div class="about-item">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I describe myself as creative person who is passionate about my work.
+                    In my free time you can find me travelling,
+                    more to capture all cultures and destinations.</p>
+            </div>
+            <img src="C:\Users\kilar\Downloads\image20.avif" alt="Description of the image 1">
+        </div>
+        <div class="about-item">
+            <div class="about-text">
+                <h2>Our Mission</h2>
+                <p>I strive to bring a comfortable environment to all of my clients.
+                    I aim to create a space where you can be yourself.</p>
+            </div>
+            <img src="C:\Users\kilar\Downloads\image22.avif" alt="Description of the image 2">
+        </div>
+    </section>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817572.jpg?w=826&t=st=1715358824~exp=1715359424~hmac=0a6104bfb170a8bbc39cf0e9fef6ec86f404063bf9fb9234f1a3b183d3e92ee2');
+            background-size: 1380px 650px;
+        }
+    </style>
+</body>
+</html>

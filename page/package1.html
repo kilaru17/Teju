@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing and Packages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .pricing {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .package {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .package h3 {
+            margin-top: 0;
+            color: #a5a5a5;
+        }
+
+        .package ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .package ul li {
+            margin-bottom: 10px;
+        }
+
+        .package .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .package .description {
+            color: #666;
+        }
+
+        .btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #a5a5a5;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        select, input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #5e5c5c;
+            border-radius: 5px;
+
+            
+        }
+        input[type="submit"]:hover {
+            background-color: #343131;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing">
+        <h2>Photography Pricing and Packages</h2>
+        <form action="#">
+            <div class="package">
+                <h3>Basic Package</h3>
+                <ul>
+                    <li>Up to 2 hours of photography</li>
+                    <li>20 edited photos</li>
+                    <li>Online gallery</li>
+                </ul>
+                <div class="price">₹1,00,000</div>
+                <div class="description">Ideal for small events and portraits.</div>
+                <input type="radio" id="basic" name="package" value="Basic">
+                <label for="basic">Select</label>
+            </div>
+            <div class="package">
+                <h3>Standard Package</h3>
+                <ul>
+                    <li>Up to 4 hours of photography</li>
+                    <li>40 edited photos</li>
+                    <li>Online gallery and USB drive</li>
+                </ul>
+                <div class="price">₹3,00,000</div>
+                <div class="description">Perfect for weddings and larger events.</div>
+                <input type="radio" id="standard" name="package" value="Standard">
+                <label for="standard">Select</label>
+            </div>
+            <div class="package">
+                <h3>Premium Package</h3>
+                <ul>
+                    <li>Full-day coverage</li>
+                    <li>80+ edited photos</li>
+                    <li>Online gallery, USB drive, and album</li>
+                </ul>
+                <div class="price">₹5,00,000</div>
+                <div class="description">For those who want the ultimate photography experience.</div>
+                <input type="radio" id="premium" name="package" value="Premium">
+                <label for="premium">Select</label>
+            </div>
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit_card">Credit Card</option>
+                <option value="UPI">UPI</option>
+                <option value="bank_transfer">Bank Transfer</option>
+            </select>
+            <input type="submit" class="btn" value="Proceed to Payment">
+        </form>
+    </div>
+</body>
+<style>
+    body {
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817572.jpg?w=826&t=st=1715358824~exp=1715359424~hmac=0a6104bfb170a8bbc39cf0e9fef6ec86f404063bf9fb9234f1a3b183d3e92ee2');
+    background-size: 1380px 650px ; 
+}
+</style>
+</html>
